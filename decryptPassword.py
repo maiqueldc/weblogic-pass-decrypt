@@ -24,7 +24,7 @@ try:
                 print "INVALID ARGUMENTS"
                 print " Usage: java weblogic.WLST decryptPassword.py <DOMAIN_HOME> <ENCRYPTED_PASSWORD>"
                 print " Example:"
-                print " java weblogic.WLST decryptPassword.py D:/Oracle/Middleware/user_projects/domains/base_domain {AES}819R5h3JUS9fAcPmF58p9Wb3syTJxFl0t8NInD/ykkE="
+                print " java weblogic.WLST decryptPassword.py D:/Oracle/Middleware/user_projects/domains/base_domain {AES}xxxxxxxxxxxxxxxxxxx/xxxxxxxxx="
 except:
     print "Unexpected error: ", sys.exc_info()[0]
     dumpStack()
